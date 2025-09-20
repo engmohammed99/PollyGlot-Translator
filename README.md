@@ -48,3 +48,7 @@ A modern, full-stack translation application powered by OpenAI's GPT models. Pol
    # Create .env file in project root
    echo "OPENAI_API_KEY=your-api-key-here" > .env
    npm start
+```
+**Made with ❤️ by [Mohammed Ashraf]**
+
+*PollyGlot - Breaking down language barriers, one translation at a time! 🌍*
