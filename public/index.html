@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PollyGlot Translator</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Header with world map background -->
+      <div class="header">
+        <div class="logo-area">
+          <img src="assets/parrot.png" class="parrot" />
+          <div class="title-text">
+            <h1>PollyGlot</h1>
+            <p>Perfect Translation Every Time</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Translator Card -->
+      <div class="translator-card">
+        <div class="input-section">
+          <label class="section-label"> Text to translate 👇 </label>
+          <textarea
+            placeholder="How are you?"
+            id="text-to-translate"
+          ></textarea>
+        </div>
+
+        <div class="language-section">
+          <label class="section-label"> Select language 👇 </label>
+          <div class="language-options">
+            <label class="language-option">
+              <input type="radio" name="language" value="french" checked />
+              <span class="radio-dot"></span>
+              <span class="language-text">French</span>
+              <img src="assets/fr-flag.png" />
+            </label>
+            <label class="language-option">
+              <input type="radio" name="language" value="spanish" />
+              <span class="radio-dot"></span>
+              <span class="language-text">Spanish</span>
+              <img src="assets/sp-flag.png" />
+            </label>
+            <label class="language-option">
+              <input type="radio" name="language" value="japanese" />
+              <span class="radio-dot"></span>
+              <span class="language-text">Japanese</span>
+              <img src="assets/jpn-flag.png" id="japan-border" />
+            </label>
+          </div>
+        </div>
+
+        <button class="translate-button" id="translate-button">
+          Translate
+        </button>
+      </div>
+    </div>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
