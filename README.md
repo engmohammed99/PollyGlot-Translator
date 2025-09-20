@@ -2,7 +2,7 @@
 
 A modern, full-stack translation application powered by OpenAI's GPT models. PollyGlot provides instant, accurate translations with a beautiful, user-friendly interface.
 
-![PollyGlot Screenshot](https://via.placeholder.com/800x400/1e3a5f/ffffff?text=PollyGlot+Translator)
+![PollyGlot Screenshot](Demo.gif)
 
 ## ✨ Features
 
